@@ -127,23 +127,39 @@ body {
  padding-bottom: 50px;
  background-color: rgb(95, 199, 247);
   padding-left: 80px;
+  padding-right: 80px;
   
- input{
-  width: 1000px;
-  height: 40px;
-  border-radius: 10px;
-  border: none;
  
 }
-button{
-  height: 40px;
+
+/* 
+input and button setting */
+.input-container {
+  position: relative;
+  width: 300px;
+ 
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
   border-radius: 10px;
-  width:100px
-  
-}
+  border-style: none;
 }
 
+.overlap-button {
+  position: absolute;
+  top: 50%;
+  right: 5px; 
+  transform: translateY(-50%);
+  background-color: #040404;
+  color: white;
+  border: none;
+  padding: 5px 10px; 
+  border-radius: 10px;
 
+}
 /* footer ends */
 
 
